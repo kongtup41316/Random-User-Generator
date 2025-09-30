@@ -17,29 +17,3 @@ This guide will walk you through the features and steps to use the enhanced proj
    - 'Fetch 5 Random Users' for multiple profiles.
 2. **Type in the search field** to filter on-the-fly by name.
 3. **Toggle the theme switch** to see light/dark mode changes.
-
---- Modifications
-
-## Exercise 1: Filter by Nationality
-
-1. Modify the `fetchUsers` function so it always fetches **5** random users.
-2. After fetching, filter the array to include only users whose `nat` property is `"US"` - Api to use for `"US"` nationality `https://randomuser.me/api/?results=5&nat=US` .
-
----
-
-## Exercise 2: Count by Gender
-
-1. Fetch **5** random users.
-2. Iterate over the results and count how many are `"male"` and how many are `"female"` (look at the `gender` property).
-
----
-
-## Exercise 3: Compute Average Age
-
-1. Fetch **5** random users.
-2. For each user, read their age from `dob.age`.
-3. Calculate the average age across all fetched users.
-
----
-
--- Api `https://randomuser.me/api/?results`
