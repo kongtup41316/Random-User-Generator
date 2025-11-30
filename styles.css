@@ -111,9 +111,11 @@ button:hover {
   border-radius: 50%;
   transition: 0.4s;
 }
+/* checked is keyword */
 input:checked + .slider {
   background-color: #007bff;
 }
+/* If the checkbox is checked → move the circle 26px to the right. */
 input:checked + .slider:before {
   transform: translateX(26px);
 }
